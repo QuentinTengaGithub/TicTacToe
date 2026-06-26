@@ -1,70 +1,198 @@
-# Getting Started with Create React App
+# Tic Tac Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive **Tic Tac Toe** game built with **React**, featuring an intuitive interface, real-time game logic and a smooth user experience. The project focuses on React fundamentals, reusable components and interactive state management.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+# Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Application**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://tictactoequentintenga.netlify.app/
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Overview
 
-### `npm run build`
+Tic Tac Toe is a frontend application that recreates the classic game with a modern and responsive interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project was developed to strengthen React fundamentals while implementing game logic, component communication and state management through a clean and maintainable architecture.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Features
 
-### `npm run eject`
+### Gameplay
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Two-player mode
+- Interactive 3×3 board
+- Turn management
+- Automatic winner detection
+- Draw detection
+- Instant game reset
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### User Experience
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Responsive interface
+- Smooth interactions
+- Modern UI
+- Real-time board updates
+- Clear game status
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Responsive Design
 
-## Learn More
+- Desktop support
+- Tablet optimization
+- Mobile-friendly layout
+- Adaptive interface
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Tech Stack
 
-### Code Splitting
+## Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-### Analyzing the Bundle Size
+## Tooling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Create React App
+- ESLint
+- Netlify
+- Git
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Project Structure
 
-### Advanced Configuration
+```
+src/
+├── components/
+├── assets/
+├── styles/
+├── App.js
+├── index.js
+└── utils/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+# Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clone the repository
 
-### `npm run build` fails to minify
+```bash
+git clone https://github.com/QuentinTengaGithub/TicTacToe.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navigate to the project
+
+```bash
+cd TicTacToe
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm start
+```
+
+Open
+
+```
+http://localhost:3000
+```
+
+---
+
+# Learning Objectives
+
+This project demonstrates:
+
+- React fundamentals
+- Component-based architecture
+- State management with Hooks
+- Event handling
+- Game logic implementation
+- Conditional rendering
+- Responsive web development
+- Clean project organization
+
+---
+
+# Highlights
+
+- Interactive game mechanics
+- Automatic winner and draw detection
+- Fully responsive interface
+- Reusable React components
+- Modern UI
+- Production-ready deployment on Netlify
+
+---
+
+# Future Improvements
+
+- Single-player mode with AI
+- Difficulty levels
+- Score tracking
+- Game history
+- Sound effects
+- Animations
+- Dark / Light theme
+- Online multiplayer
+
+---
+
+# Repository
+
+GitHub
+
+https://github.com/QuentinTengaGithub/TicTacToe
+
+---
+
+# Author
+
+**Quentin Tenga**
+
+Frontend Developer
+
+Specialized in:
+
+- React
+- Next.js
+- Vue.js
+- TypeScript
+- Angular
+- Responsive Design
+- UI / UX
+- Frontend Architecture
+
+## Links
+
+**Portfolio**
+
+https://quentintenga.netlify.app/
+
+**LinkedIn**
+
+https://www.linkedin.com/in/quentin-tenga/
+
+**GitHub**
+
+https://github.com/QuentinTengaGithub
